@@ -1,0 +1,43 @@
+.satisfy-regular {
+    font-family: "Satisfy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    height: 100%;
+    /* background: url("https://st2.depositphotos.com/2605379/7404/i/600/depositphotos_74045797-stock-photo-work-space-with-computer-and.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    
+    
+  }
+  .container-fluid{
+    min-height: 100%;
+  }
+  .i-color{
+    color: #ffc107;
+  }
+  a.nav-link{
+    color: whitesmoke;
+  }
+  a.nav-link:hover{
+    color: black;
+    background-color: #e9cd79;
+  }
+  a.nav-link.active{
+    color: black;
+    background-color: #ffc107;
+    font-weight: bold;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  

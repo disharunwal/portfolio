@@ -1,0 +1,38 @@
+<%- include('./common/header.ejs')%>
+   
+   <div class="container-fluid bg-dark">
+    <div class="row">
+        <div class="col-sm-2">
+            <%- include('./common/sidebar.ejs',{page_name:'Home'})%>
+        </div>
+        <!--</main> -->
+        <div class="col-sm-10">
+            <!-- start of main content -->
+             <div class="mt-5">
+                <div class="text-center">
+                    <img src="/images/profile.jpg" alt="profile" class="img-thumbnail " width="250px" height="100px">
+                </div>
+                <div class="mt-5 text-white mx-5 text-justify">
+                    <h1 class="fw-bold satisfy-regular">Hello, </h1>
+                    <div class="px-4" style="line-height: 2rem;">
+                        <p style="text-indent:100px">I am <b class="text-warning"> Disha Runwal</b> specialize in full-stack development,
+                            working with the MERN stack to build scalable and efficient web applications</p>
+                    <p>I'm currently focused on expanding my portfolio with innovative projects that push the boundaries of web
+                        development.I'm  passionate web developer with a focus on creating dynamic and user-friendly
+                        applications and passionate about exploring new technologies . I'm always looking for opportunities to work on groundbreaking projects that can make a difference. Let's
+                        connect and see what we can build together!".</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="/contact" class="btn btn-outline-warning mx-5 my-3">Hire Me</a>
+                    <a href="/contact" class="btn btn-outline-info">Contact Me</a>
+                </div>
+             </div>
+            <!-- <h1 class="satisfy-regular">Home Page</h1> -->
+
+        </div>
+    </div>
+   
+   </div>
+   
+<%- include('./common/footer.ejs')%>  
