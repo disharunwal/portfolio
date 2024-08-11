@@ -1,4 +1,4 @@
 const Servicecontroller=(req,res)=>{
-    res.render('services',{title:'Services'})
+    res.render('services',{title:'Projects'})
 }
 export {Servicecontroller}
